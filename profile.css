@@ -1,0 +1,58 @@
+.instructor-img
+{
+  height:220px;
+  width:220px;
+  margin-top: 10px;
+  border-radius: 50%;
+  margin-left:30px;
+}
+
+div.alternate > div:nth-of-type(even)
+{
+    background: #F8F8F8;
+}
+
+.logo
+{
+  margin: 5px;
+  height: 50px;
+  width: 50px;
+}
+.title
+{
+  text-align: center;
+}
+.title b
+{
+  text-shadow: 2px 2px #C0C0C0;
+}
+
+.alternate
+{
+  line-height: 55px;
+  text-align: center;
+
+}
+.alternate > .row
+{
+  display: inline-block;
+}
+@media (max-width: 768px) {
+.instructor-img
+{
+  margin:0px auto;
+  margin-top: 20px;
+  display: block;
+}
+
+.name
+{
+  text-align: center;
+}
+
+.alternate
+{
+  line-height: 20px;
+  width: 100%;
+}
+}
